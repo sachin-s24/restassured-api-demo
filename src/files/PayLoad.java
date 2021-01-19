@@ -12,13 +12,7 @@ public class PayLoad {
                 "  \"name\": \"Rahul Shetty Academy\",\n" +
                 "  \"phone_number\": \"(+91) 983 893 3937\",\n" +
                 "  \"address\": \"29, side layout, cohen 09\",\n" +
-                "  \"types\": [\n" +
-                "    \"shoe park\",\n" +
-                "    \"shop\"\n" +
-                "  ],\n" +
-                "  \"website\": \"http://rahulshettyacademy.com\",\n" +
-                "  \"language\": \"French-IN\"\n" +
-                "}\n";
+                "  \"types\": }\n";
     }
 
 
@@ -51,6 +45,16 @@ public class PayLoad {
                 "    }\n" +
                 "    \n" +
                 "  ]\n" +
+                "}";
+    }
+
+    public static String addBook(String isbn , String aisle){
+        return "{\n" +
+                "\n" +
+                "\"name\":\"Learn Appium Automation with Java\",\n" +
+                "\"isbn\":\""+isbn+"\",\n" +
+                "\"aisle\":\""+aisle+"\",\n" +
+                "\"author\":\"John foe\"\n" +
                 "}";
     }
 }
